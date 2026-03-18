@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(226, 208, 181);
+}
+
+h1 {
+    color: firebrick;
+    font-size: 56px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    color: rgb(177, 92, 8);
+    text-align: left;
+}
+
+h3 {
+    font-size: 16px;
+    color: rgb(71, 36, 0)
+}

@@ -1,20 +1,53 @@
 body {
+    margin: 0;
     background-color: rgb(226, 208, 181);
 }
 
 h1 {
+    font-family: Impact, fantasy;
     color: firebrick;
     font-size: 56px;
     text-align: center;
+    padding: 24px 0;
+    background-color: rgb(192, 157, 106);
+    margin-top: 0;
 }
 
 h2 {
-    font-size: 28px;
-    color: rgb(177, 92, 8);
+    font-size: 60px;
+    color: firebrick; 
     text-align: left;
+    margin-left: 40px;
 }
 
 h3 {
     font-size: 16px;
     color: rgb(71, 36, 0)
+}
+
+.img-fundo {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 95%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+button {
+    display: flex;
+    background-color: firebrick;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+#segredo {
+    background-color: rgb(192, 157, 106);
+    border: 2px solid rgb(71, 36, 0);
+    border-radius: 5px;
 }
